@@ -10,10 +10,19 @@ Bien que simple en apparence, la difficulté de ce probleme réside dans le fait
 trouver une méthode de résolution fonctionnelle et surtout rapide. 
 En effet le nombre de positions à tester croit énormément à mesure que le nombre Tetriminos à traiter augmente.
 
-
-
 **Skills :**
 * Algorithmie & Intelligence artificielle
 * Rigueur
 * Unix
 
+**Installation**
+
+1. `git clone https://github.com/mayer-overflow/fillit.git`
+2. `cd fillit`
+3. `make`
+
+**Usage**
+* `./fillit \<filename\>`
+* `./fillit samples/sujet_2`
+
+Si la liste de Tetriminos passée en paramètre comporte au moins une erreur, le programme affiche `error` sur la sortie standard et quitte proprement.

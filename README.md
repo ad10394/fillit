@@ -22,7 +22,7 @@ En effet le nombre de positions à tester croit énormément à mesure que le no
 3. `make`
 
 **Usage**
-* `./fillit \<filename\>`
+* `./fillit <filename>`
 * `./fillit samples/sujet_2`
 
 Si la liste de Tetriminos passée en paramètre comporte au moins une erreur, le programme affiche `error` sur la sortie standard et quitte proprement.

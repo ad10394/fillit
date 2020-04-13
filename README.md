@@ -25,4 +25,59 @@ En effet le nombre de positions à tester croit énormément à mesure que le no
 * `./fillit <filename>`
 * `./fillit samples/sujet_2`
 
-Si la liste de Tetriminos passée en paramètre comporte au moins une erreur, le programme affiche `error` sur la sortie standard et quitte proprement.
+**Exemple 1**
+```
+....    ....    ....    ....
+##..    ####    ....    .##.
+.#..    ....    .#..    ..##
+.#..    ....    .###    ....
+```
+
+**Solution**
+```
+DDAA
+CDDA
+CCCA
+BBBB
+```
+
+**Si la liste de Tetriminos passée en paramètre comporte au moins une erreur, le programme affiche `error` sur la sortie standard et quitte proprement.**
+
+**Exemple 2**
+```
+...#  ....  .###  ....  ....  ....  ##..  ....
+...#  ....  ...#  ..##  .##.  ....  .#..  ###.
+...#  ....  ....  .##.  .##.  ##..  .#..  .#..
+...#  ####  ....  ....  ....  .##.  ....  ....
+```
+
+**Solution**
+```
+ABBBB.
+ACCCEE
+AFFCEE
+A.FFGG
+HHHDDG
+.HDD.G
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

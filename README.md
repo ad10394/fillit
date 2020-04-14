@@ -22,7 +22,6 @@ En effet le nombre de positions à tester croit énormément à mesure que le no
 3. `make`
 
 **Usage**
-* `./fillit <filename>`
 * `./fillit samples/sujet_2`
 
 **Exemple de Tetriminos**
